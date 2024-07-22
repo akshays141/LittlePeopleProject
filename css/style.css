@@ -1,0 +1,563 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.container{
+    max-width: 100%;
+}
+
+.nav-bar{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top:20px;
+    padding-bottom:15px;
+    box-shadow: 0px 4px 5px rgba(0,0,0,.1);
+    background-color: rgba(0, 0, 0, 0.027);
+}
+
+.logo{
+    position: relative;
+    left: 100px;
+}
+
+.logo img{
+    width: 150px;
+}
+
+.logo h2{
+font-size: 21px;
+font-family:'Courier New', Courier, monospace;
+color: rgba(241, 30, 195, 0.911);
+}
+
+.logo p{
+    font-size: small;
+}
+
+.list{
+   width: 60%;
+   position: relative;
+   left: 100px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.list ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    list-style-type: none;
+}
+
+.list ul li{
+
+    font-size: small;
+}
+
+.section1{
+    max-width: 100%;
+    position:relative;    
+}
+
+.girlimg img{
+max-width: 100%;
+}
+
+.doodle{
+    position: absolute;
+    top: 1px;
+    left: 50%;
+    width: 50%;
+    height: 99%;
+}
+
+.doodle .ig1{
+    position: relative;
+    top: 50px;
+    right: 150px;
+  
+}
+.doodle .ig2{
+    position: relative;
+    top: 220px;
+    right: 30px;
+    
+}
+.doodle .ig3{
+    position: absolute;
+    top: 300px;
+    right: 700px;
+
+    
+}
+.doodle .ig4{
+    position: absolute;
+    top: 140px;
+    right: 550px;
+    
+}
+.doodle .ig5{
+    position: absolute;
+    right: 450px;
+ 
+}
+.doodle .ig6{
+    position: absolute;
+    top: 310px;
+    left: 250px;
+}
+.doodle .ig7{
+    position: absolute;
+    right: 100px;
+    top: 30px;
+   
+}
+.doodle .ig8{
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    top: 30px;
+    right: 100px;
+}
+.doodle .ig9{
+    position: absolute;
+    top: 330px;
+    right: 430px;
+  
+}
+.doodle .ig10{
+    position: absolute;
+    top: 345px;
+    right: 450px;
+   
+}
+.doodle .ig11{
+    position: absolute;
+    top: 130px;
+    right: 120px;
+   height: 85px;
+    
+}
+
+.doodle h5{
+    z-index: 3;
+    position: relative;
+    right: 120px;
+    bottom: 20px;
+    font-size: 50px ;
+    color: white;
+}
+
+.doodle .ig12{
+    position: absolute;
+    top: 230px;
+    right: 120px;
+   height: 85px;
+    
+}
+
+.doodle p{
+    z-index: 3;
+    position: relative;
+    right: 120px;
+    top: 20px;
+    width: 85%;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.section2{
+height: 573px;
+}
+
+.part1{
+padding: 70px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.part1 h4{
+    text-align: center;
+    width:30%;
+color: rgb(255, 5, 180);
+}
+
+.part1 p{
+    text-align: center;
+    width: 85%;
+    margin-top: 40px;
+    color: rgba(0, 0, 0, 0.699);
+}
+
+.section2 .boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+     
+}
+
+.box{
+    position: relative;
+    top: -30px;
+}
+
+.box h5{
+    color: rgb(255, 5, 180);
+}
+
+.box p{
+font-size: 11px;
+text-align: center;
+}
+
+.box1{
+    width: 220px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* z-index: 4; */
+    background-color: rgba(46, 193, 238, 0.966);
+}
+
+.box2{
+    width: 220px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* z-index: 4; */
+    background-color:aquamarine;
+}
+
+.box3{
+    width: 220px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* z-index: 4; */
+    background-color:rgba(84, 248, 125, 0.932);
+    color: black;
+}
+
+.box1 img{
+    width: 50px;
+}
+
+.box2 img{
+    width: 50px;   
+}
+
+.box3 img{
+    width: 30px; 
+}
+
+.part2{
+    background-color: rgba(243, 130, 24, 0.363);
+    position: relative;
+    bottom: 120px;
+    height: 200px;
+    width: 100%;
+    z-index: -1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.part2 h4{
+    position: relative;
+    top: 30px;
+    left: 80px;
+    color: rgb(255, 5, 180);
+}
+
+.part2 button{
+    position: relative;
+    top: 30px;
+    right: 90px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+}
+
+.section3{
+    height: 402px;
+    width: 100%;
+}
+
+.section3 img{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    
+}
+
+.section3 h4{
+    position: relative;
+    bottom: 300px;
+    left: 400px;
+    font-size: 40px;
+    color: rgb(255, 5, 180);
+}
+
+.infos{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    position: relative;
+    left: 200px;
+    bottom: 200px;
+}
+
+.info h5{
+font-size: 40px;
+color: rgb(255, 5, 180);
+}
+
+.info p{
+   width: 100px;
+}
+
+.section4{
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.section4 h3{
+    text-align: center;
+    color: rgb(255, 5, 180);
+}
+
+.sclife{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.life{
+    width: 300px;
+    height: 400px;
+    background-color: rgba(220, 220, 220, 0.911);
+    text-align: center;
+}
+
+.life .imag{
+    width: 300px;
+}
+
+.life h5{
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.life p{
+    margin: 10px;
+}
+
+.life .image1{
+    margin-left: -90px;
+   
+}
+
+.life span{
+    color: rgb(255, 5, 180);
+}
+
+.section5{
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    color: rgb(255, 5, 180);
+}
+
+.flexbox{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    position: relative;
+    left: 100px;
+    top: 30px;
+}
+
+.section6{
+    width: 100%;
+    background-color: aquamarine;
+}
+
+.section6 h3{
+    color: rgb(255, 5, 180);
+    padding-top: 40px;
+    text-align: center;
+}
+
+.staffs{
+    padding-top: 50px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+  
+}
+
+.staff{
+    border: 1px solid pink;
+    background-color: white;
+}
+
+.section7{
+    background-image: url("/assets/project-2.png");
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: bottom;
+    background-color: rgba(0, 0, 0, 0.384);
+    background-blend-mode: darken;
+}
+
+.section7 h4{
+    color: rgb(255, 5, 180);
+    text-align: center;
+    position: relative;
+    top: 100px;
+    font-size: 25px;
+}
+
+.section7 p{
+    position: relative;
+    top: 290px;
+    left: 270px;
+    width: 60%;
+    text-align: center;
+    color: white;
+}
+
+.section8{
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+
+.contact1{
+    width: 33.33%;
+    height: 100px;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact2{
+    width: 33.33%;
+    height: 100px;
+    background-color: yellow;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact3{
+    width: 33.33%;
+    height: 100px;
+    background-color: rgb(255, 143, 171);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section9{
+    width: 100%;
+    height: 200px;
+    padding-top:50px;
+    background-color: rgba(0, 0, 0, 0.616);
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.section9 ul{
+    width: 15%;
+}
+
+.section9 ul h4{
+    color: white;
+    padding-bottom: 20px;
+}
+
+.section9 ul li{
+    color: rgba(255, 255, 255, 0.418);
+}
+
+.section9 ul p{
+    color: rgba(255, 255, 255, 0.418);
+}
+
+
+.section9 ul input{
+    width: 120px;
+    padding: 10px;
+    border: none;
+    background-color: rgba(58, 53, 53, 0.363);
+}
+
+.section9 ul button{
+    position: relative;
+    top: 40px;
+    right: 100px;
+    background-color: rgb(245, 129, 148);
+    padding: 5px;
+    border: none;
+}
+
+.section10{
+    background-image: url("/assets/project-143.png");
+    background-color: black;
+    width: 100%;
+    height: 86px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-logo{
+    width: 130px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    position: relative;
+    left: 230px;
+    top: 5px;
+}
+
+.section10 p{
+    color: white;
+    position: relative;
+    top: 15px;
+    right: 10px;
+    font-size: 14px;
+}
